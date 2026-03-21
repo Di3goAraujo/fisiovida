@@ -1,8 +1,9 @@
 {
   "name": "FisioVida - Dra. Hianny Farago",
   "short_name": "FisioVida",
-  "description": "Gestão em Fisioterapia Geriátrica",
-  "start_url": "/index.html",
+  "description": "Gestão em Fisioterapia Gerontológica",
+  "start_url": "/fisiovida/index.html",
+  "scope": "/fisiovida/",
   "display": "standalone",
   "background_color": "#faf7f2",
   "theme_color": "#2d6a34",
