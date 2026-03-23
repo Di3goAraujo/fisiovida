@@ -277,7 +277,7 @@ if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js'); }
 
 // ── SUPABASE ──────────────────────────────────────────────────
 var SB_URL = 'https://iimtekytmshmnxglryns.supabase.co';
-var SB_KEY = 'sb_publishable_MM4jjHOi5ZoGH7ZjEXU3CA_3JQQJdvG';
+var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlpbXRla3l0bXNobW54Z2xyeW5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxMTgyODgsImV4cCI6MjA4OTY5NDI4OH0._KdFOOuCgBKCQCM3p0a21s3wRA0TwzIX4XWarthFA4M';
 
 function sbFetch(path, method, body) {
   return fetch(SB_URL + '/rest/v1/' + path, {
